@@ -1,0 +1,57 @@
+Screen {
+    layout: grid;
+    grid-size: 2;
+}
+
+#app-grid {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 3fr;
+    height: 100%;
+}
+
+#left-pane {
+    padding: 1;
+    border: solid $accent;
+    height: 100%;
+    display: block;
+}
+
+#right-pane {
+    padding: 1;
+    border: solid $accent;
+    height: 100%;
+}
+
+#menu-title {
+    content-align: center middle;
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#status-display {
+    border: double $accent;
+    height: 3;
+    content-align: center middle;
+}
+
+/* New style for the process display */
+#proc-display {
+    border: round $accent;
+    height: 3;
+    content-align: center middle;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+#log-viewer {
+    border: tall $background-lighten-2;
+    padding: 1;
+    height: 70%; /* Adjusted height to make space for new widget */
+    width: 100%;
+}
+
+Button {
+    width: 100%;
+    margin-bottom: 1;
+}
