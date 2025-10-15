@@ -1,2 +1,1 @@
-# Hyprland-auto-installer
-Hyprland Auto-Installer Package  This package provides an automated installation and configuration tool for Hyprland on Arch Linux. It includes functionality for installing Hyprland, managing configurations, applying dotfiles, and handling backups.
+WinRunAI is an intelligent, terminal-based enhancement layer for Wine on Linux. It acts as an AI-driven compatibility assistant that runs as a background service, intelligently analyzes Windows application requirements, and automatically resolves compatibility issues in real-time to enable seamless execution of Windows applications on Linux systems.
