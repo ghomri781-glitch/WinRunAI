@@ -1,0 +1,19 @@
+# WinRunAI Configuration File
+
+# AI Engine Settings
+ai_engine:
+  # The confidence level (0.0 to 1.0) required for the AI to apply a fix
+  # without asking for user confirmation.
+  # Set to 1.1 to always ask for confirmation.
+  # Set to 0.0 to never ask (not recommended).
+  auto_apply_confidence_threshold: 0.9
+
+  # LLM Integration (Future Use)
+  # llm_enabled: false
+  # llm_provider: "ollama"
+  # llm_model: "llama3"
+
+# Service Settings
+service:
+  # How often the process monitor scans for new Wine processes (in seconds).
+  scan_interval: 5
